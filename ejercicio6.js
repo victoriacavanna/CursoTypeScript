@@ -5,16 +5,15 @@ function mayorQueCeroMenorQueDiez(numero:   ):
 Teniendo un arreglo de numeros:
 let numeros: number[] = [15,16,3,4,8,10,12,27];
  */
-let numeros: number[] = [15,16,3,4,8,10,12,27];
-
-
-function mayorQueCeroMenorQueDiez(numero:number): boolean {
-    if (numero > 0 && numero < 10){
+var numeros = [15, 16, 3, 4, 8, 10, 12, 27];
+function mayorQueCeroMenorQueDiez(numero) {
+    if (numero > 0 && numero < 10) {
         return true;
-    } else {
+    }
+    else {
         return false;
     }
 }
-numeros.forEach(function(numero){
+numeros.forEach(function (numero) {
     console.log(mayorQueCeroMenorQueDiez(numero));
 });
