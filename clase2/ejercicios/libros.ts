@@ -1,3 +1,4 @@
+//Ejercicio 2: Crear una función que tome una lista de Libros y retorne el número total de paginas
 import ILibro from "./interfaces/ILibro"
 let libros = [];
 const libro1: ILibro = {

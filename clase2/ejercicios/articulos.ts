@@ -1,3 +1,4 @@
+//Ejercicio 4: Crear una funcion que tome un aticulo e imprima su información
 import IArticulo from "./interfaces/IArticulo";
 
 const imprimirArticulo = (articulo:IArticulo):void => {
