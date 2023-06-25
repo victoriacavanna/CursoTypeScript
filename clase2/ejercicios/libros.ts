@@ -28,3 +28,4 @@ const totalPaginas = (lista:ILibro []):number => {
     }
     return total;
 }
+console.log(`Total de páginas en todos los libros: ${totalPaginas(libros)}`);
