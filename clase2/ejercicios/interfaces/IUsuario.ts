@@ -1,4 +1,4 @@
-//Definir una interfaz Usuario, con las propiedades: nombre, email y edad
+//Ejercicio 5: Definir una interfaz Usuario, con las propiedades: nombre, email y edad
 interface IUsuario {
     nombre: string,
     email: string,
